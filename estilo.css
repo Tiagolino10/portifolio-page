@@ -1,0 +1,236 @@
+body{
+    background-color: #0c1014; /* muda toda a cor de fundo do body*/
+    color: white; /*muda a cor do texto de tudo que está no body*/
+    width: 90%; /*dimensional a largura do body*/
+    max-width: 960px; /*dimensional a largura máxima do body*/
+    margin: 0 auto; /* a margim fica com valor zero*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* tipo de fonte*/
+}
+
+
+.header{
+    background-image: url(../imagens/img-2.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: right center;
+    padding: 15px; 
+}   
+
+.cabecalho {    
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+
+.logo{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+    color: rgb(159, 61, 61);
+}
+
+.header__nav ul{
+    
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;    
+}
+
+.header__nav li{
+    background-color: rgba(137, 43, 226, 0.403);
+}
+
+.header__nav a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header__nav a:hover{
+    text-decoration: underline;
+}
+
+.title{
+    text-align: center;
+    padding: 14px;
+    border-radius: 6%;
+    color: rgb(159, 61, 61);
+     
+    
+}
+
+.title img{
+    height: 110px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;   
+    
+}
+
+.title h2{    
+    padding-top: 10px;      
+    margin-bottom: 0px;
+    font-size: 26px;
+}
+
+.title p{    
+    padding-top: 0px;  
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+main{
+    background-color: rgba(24, 19, 42, 0.524);
+    display: flex;    
+    padding-top: 50px;  
+    color: #b5b5b5;  
+    justify-content: center; 
+    height: 420px;    
+}    
+
+
+.foto{    
+    width: 1200px;
+    padding: 25px 5px 0 50px;    
+    
+}
+
+.sobremim{    
+    padding-left: 20px;
+    padding-right: 80px;
+    text-justify: distribute;   
+    
+   
+}
+
+.description{
+    text-justify: center;   
+    text-size-adjust: auto;
+    padding: 5px;
+    
+}
+
+
+.dados{
+    border: 3px solid rgb(159, 61, 61); 
+    display: flex;    
+    gap: 30px;      
+    width: 520px;    
+    justify-content: space-between; 
+    line-height: 0.6; 
+}   
+
+.dados_conteudo{    
+    width: 300px;
+    padding: 2px;
+}
+
+.dados_conteudo2{    
+    width: 150px;
+    padding: 2px;
+}
+
+.dados__p{
+    margin-left: 0px;
+    padding-left:10px;
+    width: 100px;       
+    line-height: 0.6;
+    height: 120px;    
+}
+
+.botao{    
+    padding-top: 30px;    
+}
+
+.botao a{
+    background-color: rgb(159, 61, 61); 
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    
+}
+
+.title-service{    
+    text-align: left;
+    padding: 10px;
+      
+}
+
+.title-service h2{    
+    text-transform: uppercase;
+    font-size: 26px; 
+    margin-top: 0px;   
+}
+
+.title-service h3{
+    color: rgb(159, 61, 61);
+    text-transform: uppercase;
+    font-size: 18px;     
+    margin-bottom: 5px;    
+}
+
+.card{
+    display: flex;
+    gap: 15px;
+}
+
+.card1{
+    padding: 15px;  
+    border: 3px solid rgb(159, 61, 61);  
+    border-radius: 20px;    
+}
+
+
+.card h3{    
+    text-align: center;    
+}
+
+.conteudo{
+    background-color: rgba(30, 30, 70, 0.5);
+    padding: 1px 60px;
+    color: #b5b5b5 ;   
+    height: 470px;
+    
+}
+
+.title_conhecimento{
+    background-color: rgba(24, 19, 42, 0.524); 
+    padding: 10px; 
+}
+
+.title_conhecimento h3{
+    text-align: left;
+    color: #b5b5b5;  
+    text-transform: uppercase;
+    font-size: 26px;     
+    margin-bottom: 10px; 
+    padding-left: 50px;
+}
+
+
+.conhecimentos{
+    background-color: rgba(24, 19, 42, 0.524);
+    display: flex;
+    gap: 1px;
+    justify-content: space-around;    
+    padding: 15px;
+    height: 120px;
+}
+
+
+.conhecimentos img{
+    border-radius: 50%;
+    height: 90px;
+}
+
+
+footer{
+    background-color: #b5b5b5;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+}
